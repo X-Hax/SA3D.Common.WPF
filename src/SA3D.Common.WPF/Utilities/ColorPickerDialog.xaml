@@ -1,0 +1,21 @@
+﻿<Window 
+    x:Class="SA3D.Common.WPF.Utilities.ColorPickerDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:SA3D.Common.WPF.Utilities"
+    mc:Ignorable="d"
+    WindowStartupLocation="CenterScreen" 
+    Title="Color Picker" 
+    Width="600" Height="370" ResizeMode="NoResize">
+
+    <Grid>
+        <local:ColorPickerControl x:Name="ColorPickerControl"/>
+        <StackPanel Grid.Row="10" Grid.ColumnSpan="3" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button Content="Ok" Height="24" Width="70" Margin="10" VerticalAlignment="Bottom" Click="Submit"/>
+            <Button Content="Cancel" Height="24" Width="70" Margin="0, 10" VerticalAlignment="Bottom" Click="Cancel"/>
+        </StackPanel>
+    </Grid>
+    
+</Window>

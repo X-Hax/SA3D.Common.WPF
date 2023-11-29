@@ -1,0 +1,74 @@
+﻿#nullable enable
+override SA3D.Common.WPF.NumberBoxes.ByteBox.Add(byte x, byte y) -> byte
+override SA3D.Common.WPF.NumberBoxes.ByteBox.Subtract(byte x, byte y) -> byte
+override SA3D.Common.WPF.NumberBoxes.ByteBox.TryParse(string! text, System.Globalization.NumberStyles numberStyles, System.IFormatProvider! culture, out byte result) -> bool
+override SA3D.Common.WPF.NumberBoxes.ByteBox.TypeMax() -> byte
+override SA3D.Common.WPF.NumberBoxes.ByteBox.TypeMin() -> byte
+override SA3D.Common.WPF.NumberBoxes.LongBox.Add(long x, long y) -> long
+override SA3D.Common.WPF.NumberBoxes.LongBox.Subtract(long x, long y) -> long
+override SA3D.Common.WPF.NumberBoxes.LongBox.TryParse(string! text, System.Globalization.NumberStyles numberStyles, System.IFormatProvider! culture, out long result) -> bool
+override SA3D.Common.WPF.NumberBoxes.LongBox.TypeMax() -> long
+override SA3D.Common.WPF.NumberBoxes.LongBox.TypeMin() -> long
+override SA3D.Common.WPF.NumberBoxes.UIntBox.Add(uint x, uint y) -> uint
+override SA3D.Common.WPF.NumberBoxes.UIntBox.Subtract(uint x, uint y) -> uint
+override SA3D.Common.WPF.NumberBoxes.UIntBox.TryParse(string! text, System.Globalization.NumberStyles numberStyles, System.IFormatProvider! culture, out uint result) -> bool
+override SA3D.Common.WPF.NumberBoxes.UIntBox.TypeMax() -> uint
+override SA3D.Common.WPF.NumberBoxes.UIntBox.TypeMin() -> uint
+override SA3D.Common.WPF.NumberBoxes.ULongBox.Add(ulong x, ulong y) -> ulong
+override SA3D.Common.WPF.NumberBoxes.ULongBox.Subtract(ulong x, ulong y) -> ulong
+override SA3D.Common.WPF.NumberBoxes.ULongBox.TryParse(string! text, System.Globalization.NumberStyles numberStyles, System.IFormatProvider! culture, out ulong result) -> bool
+override SA3D.Common.WPF.NumberBoxes.ULongBox.TypeMax() -> ulong
+override SA3D.Common.WPF.NumberBoxes.ULongBox.TypeMin() -> ulong
+override SA3D.Common.WPF.NumberBoxes.UShortBox.Add(ushort x, ushort y) -> ushort
+override SA3D.Common.WPF.NumberBoxes.UShortBox.Subtract(ushort x, ushort y) -> ushort
+override SA3D.Common.WPF.NumberBoxes.UShortBox.TryParse(string! text, System.Globalization.NumberStyles numberStyles, System.IFormatProvider! culture, out ushort result) -> bool
+override SA3D.Common.WPF.NumberBoxes.UShortBox.TypeMax() -> ushort
+override SA3D.Common.WPF.NumberBoxes.UShortBox.TypeMin() -> ushort
+SA3D.Common.WPF.ErrorHandling.ErrorDialog
+SA3D.Common.WPF.ErrorHandling.ErrorDialog.ErrorDialog(string! programName, string! errorDescription, string! log, string! reportWebLink) -> void
+SA3D.Common.WPF.ErrorHandling.ErrorDialog.InitializeComponent() -> void
+SA3D.Common.WPF.ErrorHandling.ErrorHandler
+SA3D.Common.WPF.ErrorHandling.ErrorHandler.ErrorHandler(string! reportWebLink) -> void
+SA3D.Common.WPF.ErrorHandling.ErrorHandler.ErrorHandlers.get -> System.Collections.Generic.List<SA3D.Common.WPF.ErrorHandling.IErrorHandler!>!
+SA3D.Common.WPF.ErrorHandling.ErrorHandler.HandleException(System.Exception! exception) -> void
+SA3D.Common.WPF.ErrorHandling.ErrorHandler.OnUnhandledException(object! source, System.UnhandledExceptionEventArgs! eventArgs) -> void
+SA3D.Common.WPF.ErrorHandling.ErrorHandler.ReportWebLink.get -> string!
+SA3D.Common.WPF.ErrorHandling.ErrorHandler.ReportWebLink.set -> void
+SA3D.Common.WPF.ErrorHandling.IErrorHandler
+SA3D.Common.WPF.ErrorHandling.IErrorHandler.GetErrorDescription(System.Exception! exception) -> string?
+SA3D.Common.WPF.MVVM.BaseViewModel
+SA3D.Common.WPF.MVVM.BaseViewModel.BaseViewModel() -> void
+SA3D.Common.WPF.MVVM.BaseViewModel.OnPropertyChanged(string? propertyName = null) -> void
+SA3D.Common.WPF.MVVM.BaseViewModel.PropertyChanged -> System.ComponentModel.PropertyChangedEventHandler?
+SA3D.Common.WPF.MVVM.RelayCommand
+SA3D.Common.WPF.MVVM.RelayCommand.CanExecute(object? parameter) -> bool
+SA3D.Common.WPF.MVVM.RelayCommand.CanExecuteChanged -> System.EventHandler?
+SA3D.Common.WPF.MVVM.RelayCommand.Execute(object? parameter) -> void
+SA3D.Common.WPF.MVVM.RelayCommand.RelayCommand(System.Action! action) -> void
+SA3D.Common.WPF.MVVM.RelayCommand<TParameterType>
+SA3D.Common.WPF.MVVM.RelayCommand<TParameterType>.CanExecute(object? parameter) -> bool
+SA3D.Common.WPF.MVVM.RelayCommand<TParameterType>.CanExecuteChanged -> System.EventHandler?
+SA3D.Common.WPF.MVVM.RelayCommand<TParameterType>.Execute(object? parameter) -> void
+SA3D.Common.WPF.MVVM.RelayCommand<TParameterType>.RelayCommand(System.Action<TParameterType>! action) -> void
+SA3D.Common.WPF.NumberBoxes.ByteBox
+SA3D.Common.WPF.NumberBoxes.ByteBox.ByteBox() -> void
+SA3D.Common.WPF.NumberBoxes.LongBox
+SA3D.Common.WPF.NumberBoxes.LongBox.LongBox() -> void
+SA3D.Common.WPF.NumberBoxes.UIntBox
+SA3D.Common.WPF.NumberBoxes.UIntBox.UIntBox() -> void
+SA3D.Common.WPF.NumberBoxes.ULongBox
+SA3D.Common.WPF.NumberBoxes.ULongBox.ULongBox() -> void
+SA3D.Common.WPF.NumberBoxes.UShortBox
+SA3D.Common.WPF.NumberBoxes.UShortBox.UShortBox() -> void
+SA3D.Common.WPF.Utilities.ColorChangedEventHandler
+SA3D.Common.WPF.Utilities.ColorPickerControl
+SA3D.Common.WPF.Utilities.ColorPickerControl.Color.get -> System.Windows.Media.Color
+SA3D.Common.WPF.Utilities.ColorPickerControl.Color.set -> void
+SA3D.Common.WPF.Utilities.ColorPickerControl.ColorChangedEvent -> SA3D.Common.WPF.Utilities.ColorChangedEventHandler?
+SA3D.Common.WPF.Utilities.ColorPickerControl.ColorPickerControl() -> void
+SA3D.Common.WPF.Utilities.ColorPickerControl.ColorPickerControl(System.Windows.Media.Color color) -> void
+SA3D.Common.WPF.Utilities.ColorPickerControl.InitializeComponent() -> void
+SA3D.Common.WPF.Utilities.ColorPickerDialog
+SA3D.Common.WPF.Utilities.ColorPickerDialog.InitializeComponent() -> void
+static SA3D.Common.WPF.Utilities.ColorPickerControl.ColorProperty -> System.Windows.DependencyProperty!
+static SA3D.Common.WPF.Utilities.ColorPickerDialog.ShowAsDialog(System.Windows.Media.Color color, out System.Windows.Media.Color pickedColor) -> bool

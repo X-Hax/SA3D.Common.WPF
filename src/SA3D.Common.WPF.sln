@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SA3D.Common.WPF", "SA3D.Common.WPF\SA3D.Common.WPF.csproj", "{3D22C487-BD67-40AD-84D1-99331B647B3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solutionitems", ".solutionitems", "{D2AFA4B5-E70F-4EE3-8640-9EA702E18EC7}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D22C487-BD67-40AD-84D1-99331B647B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D22C487-BD67-40AD-84D1-99331B647B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D22C487-BD67-40AD-84D1-99331B647B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D22C487-BD67-40AD-84D1-99331B647B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49794AB1-58DE-4266-9944-309184E3CF44}
+	EndGlobalSection
+EndGlobal
