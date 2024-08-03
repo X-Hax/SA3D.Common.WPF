@@ -29,7 +29,7 @@ namespace SA3D.Common.WPF.ErrorHandling
 		public ErrorHandler(string reportWebLink)
 		{
 			ReportWebLink = reportWebLink;
-			ErrorHandlers = new();
+			ErrorHandlers = [];
 		}
 
 		/// <summary>

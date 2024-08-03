@@ -3,7 +3,7 @@
 	<Import Project="../SA3D.ProjectConfigurations/NuGet.Build.props" />
 
 	<PropertyGroup>
-		<TargetFramework>net7.0-windows</TargetFramework>
+		<TargetFramework>net8.0-windows</TargetFramework>
 		<RootNamespace>SA3D.Common.WPF</RootNamespace>
 		<UseWPF>true</UseWPF>
 	</PropertyGroup>
