@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is no longer being worked on!<br/>
+> It will be replaced by [SA3D.Common.Avalonia](https://github.com/X-Hax/SA3D.Common.Avalonia)
+
 # SA3D.Common.WPF
 Reused WPF code in SA3D Apps.
 
